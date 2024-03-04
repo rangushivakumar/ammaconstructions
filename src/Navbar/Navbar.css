@@ -1,0 +1,168 @@
+/* Navbar styles */
+.navbarr {
+  background-color: rgb(27, 159, 27);
+  color: #ffffff;
+  padding: 20px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+#home {
+  color: #ffcc00;
+}
+
+#service {
+  color: #ffcc00;
+}
+
+#aboutus {
+  color: #ffcc00;
+}
+
+#contactus {
+  color: #ffcc00;
+}
+
+#AC2{
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.navbar__logo img {
+  width: 40px;
+  height: auto;
+}
+
+.navbar__navlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: medium;
+}
+
+.navbar__navlinks li {
+  margin-right: 60px;
+  font-size: 15px;
+}
+
+.navbar__navlinks li:last-child {
+  margin-right: 0;
+}
+
+.navbar__navlinks li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar__navlinks li a:hover {
+  color: #ffcc00;
+}
+
+.iconcontainer {
+  display: none;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .navbar__navlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    gap: 20px;
+    top: 90px;
+    right: -800px;
+    width: 50vw;
+    height: 84vh;
+    background: rgb(27, 159, 27);
+    padding: 40px;
+    transition: right 0.5s ease-in-out;
+    z-index: -1;
+  }
+
+  #cname {
+    font-size: 20px;
+  }
+
+  .navbarr {
+    height: 100px;
+  }
+
+  .navbarr.open .navbar__navlinks {
+    right: 0px;
+    /* Display the navbar when open */
+  }
+
+  .iconcontainer {
+    display: block;
+    font-size: 20px;
+  }
+
+  .navbar__navlinks li {
+    margin-right: 0px;
+    /* Spacing between items */
+  }
+
+  .navbarr {
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 100;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar__navlinks {
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: flex-start;
+    position: fixed;
+    top: 10vh;
+    right: -500px;
+    /* Initially hide the navbar */
+    width: 50vw;
+    /* Adjusted to full viewport width */
+    height: 100vh;
+    background: rgb(27, 159, 27);
+    padding: 30px;
+    transition: right 0.5s ease-in-out;
+    z-index: -1;
+  }
+
+  .navbarr.open .navbar__navlinks {
+    right: 0px;
+    /* Display the navbar when open */
+  }
+
+  .iconcontainer {
+    display: block;
+  }
+
+
+  .navbarr {
+    padding: 16px 30px;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  #cname {
+    font-size: 18px;
+  }
+
+  .navbarr {
+    height: 90px;
+  }
+
+}

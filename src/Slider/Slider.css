@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+    margin-top: 64px;
+}
+
+img{
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    img {
+        height: 25vh;
+    }
+    .slider{
+        margin-top:100px ;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider{
+        margin-top: 90px;
+    }
+}

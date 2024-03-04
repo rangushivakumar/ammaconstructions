@@ -1,0 +1,96 @@
+.about{
+  width: 90vw;
+  margin: 40px auto 0 auto;
+}
+.about .heading{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(27, 159, 27);
+}
+.aboutamma{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 50px;
+}
+.aboutamma .firstflex{
+    width: 50vw;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.aboutamma .firstflex h4{
+    font-size: medium;
+    font-weight: bold;
+    color:rgb(27, 159, 27);
+}
+
+.aboutamma .secondflex h4{
+    font-size: medium;
+    font-weight: bold;
+}
+.aboutamma .firstflex p{
+    font-weight: 2px;
+    font-size: 14px;
+}
+.missionicon{
+    color: rgb(87, 145, 87);
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.secondflex .mission h4{
+    margin: 0.3rem 0 0 0;
+}
+.secondflex p{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.aboutcompany {
+    margin: 10px;
+    text-align: center;
+}
+.aboutimage {
+    max-width: 60%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid rgb(87, 145, 87);
+}
+
+@media (max-width: 768px) {
+    .aboutamma .firstflex{
+        width: 80vw;
+        margin-top: 0px;
+    }
+    .aboutamma{
+        flex-wrap: wrap;
+        gap:20px
+    }
+    .aboutamma .firstflex p{
+        font-size: 16px;
+    }
+    .mission{
+        margin-bottom: 5px;
+    }
+    .mv{
+        margin-bottom: 20px
+    }
+    .aboutamma .secondflex{
+        width: 80vw;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutamma{
+        padding: 30px;
+        gap: 15px;
+    }
+    .mission{
+        margin-bottom: 3px;
+    }
+    .mv{
+        margin-bottom: 15px
+    }
+}

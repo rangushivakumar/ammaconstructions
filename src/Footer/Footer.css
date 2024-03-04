@@ -1,0 +1,147 @@
+#whatsapp{
+    position: fixed;
+    bottom: 5px;
+    right: 40px;
+    border: 1px solid rgb(27, 159, 27) ;
+}
+
+#footer {
+    padding: 40px 120px;
+    background-color: rgb(236, 246, 236);
+}
+
+.footercontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.heading {
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(27, 159, 27);
+}
+
+.footercontainer h4 {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footercontainer p {
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+.footercontainer .quicklinks ul li {
+    list-style-type: none;
+}
+
+.quicklinks ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.quicklinks ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 2px;
+}
+
+.quicklinks ul li a:hover {
+    cursor: pointer;
+    color: rgb(237, 136, 35);
+}
+.quicklinks h4{
+    margin-bottom: 0.5rem;
+}
+
+.copyright {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    margin: 0 90px;
+    color: #ffffff;
+}
+
+#copy {
+    background-color: rgb(60, 160, 80);
+}
+
+.sociallinks a {
+    padding: 15px;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicon {
+    color: rgb(27, 159, 27);
+    font-size: 20px;
+}
+
+.sociallinks {
+    margin-right: 60px;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        padding: 20px 60px;
+        margin-bottom: 95px;
+    }
+    .footercontainer {
+       gap: 20px; 
+     }
+    .copyrighttext{
+        display: none;
+    }
+    .copyright{
+        margin: 0px;
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        background-color: rgb(27, 159, 27);
+        width: 100%;
+        left: 0px;
+        padding: 10px;
+        z-index: 13;
+    }
+    .sociallinks{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+        background-color: none;
+        margin: 0 80px;
+    }
+    #whatsapp{
+        position: static;
+    }
+    .socialicon{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .sociallinks a {
+        padding: 0px;
+        border-radius: 50%;
+    }
+}
+@media (max-width: 480px) {
+    .sociallinks{
+        margin: 0;
+    }
+    #footer{
+        padding: 20px 50px;
+        margin-bottom: 75px;
+    }
+    .sociallinks a {
+        margin: 0 25px;
+    }
+    .socialicon{
+        font-size: 30px;
+        padding: 10px;
+    }
+   
+}
