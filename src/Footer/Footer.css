@@ -1,9 +1,9 @@
-#whatsapp{
+/* #whatsapp{
     position: fixed;
     bottom: 5px;
     right: 40px;
     border: 1px solid rgb(27, 159, 27) ;
-}
+} */
 
 #footer {
     padding: 40px 120px;
@@ -86,11 +86,27 @@
 .sociallinks {
     margin-right: 60px;
 } */
+.sociallinks{
+    display: flex;
+    /* justify-content: space-between */
+    gap: 40px;
+}
+.sociallinks{
+    margin: 0 40px;
+}
+.socialicon{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
 
 @media (max-width: 768px) {
     #footer {
         padding: 20px 60px;
-        margin-bottom: 95px;
+        margin-bottom: 6vh;
     }
     .footercontainer {
        gap: 20px; 
@@ -127,11 +143,23 @@
         padding: 0px;
         border-radius: 50%;
     } */
+    .sociallinks{
+        margin: 0 30px;
+        justify-content: space-between;
+    }
+    .socialicon{
+        color: white;
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 300;
+    }
 }
 @media (max-width: 480px) {
     #footer{
         padding: 20px 50px;
-        margin-bottom: 9vh;
+        margin-bottom: 6vh;
     }
     /* .socialicon{
         font-size: 20px;
@@ -153,4 +181,16 @@
         margin: 0px 30px;
         height: auto;
     } */
+    .sociallinks{
+        margin: 0 30px;
+    }
+    .socialicon{
+        color: white;
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
 }
