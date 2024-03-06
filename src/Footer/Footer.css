@@ -71,7 +71,7 @@
     background-color: rgb(60, 160, 80);
 }
 
-.sociallinks a {
+/* .sociallinks a {
     padding: 15px;
     background-color: #ffffff;
     margin: 10px;
@@ -85,7 +85,7 @@
 
 .sociallinks {
     margin-right: 60px;
-}
+} */
 
 @media (max-width: 768px) {
     #footer {
@@ -109,31 +109,31 @@
         padding: 10px;
         z-index: 13;
     }
-    .sociallinks{
+    /* .sociallinks{
         display: flex;
         justify-content: space-between;
         margin: 0px;
         background-color: none;
         margin: 0 80px;
-    }
+    } */
     #whatsapp{
         position: static;
     }
-    .socialicon{
+    /* .socialicon{
         font-size: 30px;
         padding: 10px;
     }
     .sociallinks a {
         padding: 0px;
         border-radius: 50%;
-    }
+    } */
 }
 @media (max-width: 480px) {
     #footer{
         padding: 20px 50px;
         margin-bottom: 9vh;
     }
-    .socialicon{
+    /* .socialicon{
         font-size: 20px;
         padding: 0px;
     }
@@ -152,5 +152,5 @@
     .sociallinks {
         margin: 0px 30px;
         height: auto;
-    }
+    } */
 }
