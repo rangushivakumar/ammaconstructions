@@ -30,7 +30,7 @@ function Services({showSlider}) {
               <p>2.Open Bathroom</p>
               <p>3.Bore Upto 150 Feets</p>
               <p>4.Free Maintainence For 5 years</p>
-              <p>Compound Wall With Gate</p>
+              <p>5.Compound Wall With Gate</p>
               <h4>Materials used :</h4>
               <p>1.UltraTech Cement</p>
               <p>2.Tata Steel</p>
@@ -51,7 +51,7 @@ function Services({showSlider}) {
               <p>1.Bathroom</p>
               <p>2.Bore upto 150 Feets</p>
               <p>3.Compound Wall With Gate</p>
-              <p>4.Metal Sheet Single Room Pent House</p>
+              {/* <p>4.Metal Sheet Single Room Pent House</p> */}
               <p>4.Free Maintainence for 5 years</p>
               <h4>Materials used :</h4>
               <p>1.UltraTech Cement</p>
