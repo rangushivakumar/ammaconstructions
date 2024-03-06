@@ -129,7 +129,7 @@
     gap: 20px;
     justify-content: flex-start;
     position: fixed;
-    top: 8vh;
+    top: 6vh;
     right: -500px;
     /* Initially hide the navbar */
     width: 50vw;
@@ -174,5 +174,8 @@
   .navbar__logo img {
     width: 30px;
     height: auto;
+  }
+  #cname{
+    font-weight: 400;
   }
 }
