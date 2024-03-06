@@ -21,7 +21,7 @@ function Navbar() {
             <nav className={isOpen ? "navbarr open" : "navbarr"}>
                 <div className="navbar__logo">
                     <img src={AC3} alt="Company Logo" id='AC2'/>
-                    <span id='cname'>Amma Constructions</span>
+                    <span id='cname'>Amma Construction</span>
                 </div>
                 <ul className="navbar__navlinks">
                     <li><NavLink exact to="/" id={isHome? 'home' : ''} onClick={toggleMenu}>Home</NavLink></li>

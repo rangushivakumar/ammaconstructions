@@ -12,7 +12,7 @@ function About({ showSlider }) {
         <p className="heading">About Us</p>
         <div className="aboutamma">
           <div className="firstflex">
-            <h4>WE ARE AMMA CONSTRUCTIONS</h4>
+            <h4>WE ARE AMMA CONSTRUCTION</h4>
             <p>
               Certainly, here's an extended version of the paragraph: "At Amma
               Construction, we are dedicated to crafting homes of unparalleled
