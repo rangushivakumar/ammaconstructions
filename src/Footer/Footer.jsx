@@ -19,9 +19,9 @@ function Footer() {
             <div className="contactsection">
               <h4>ADDRESS</h4>
               <p>
-                12-2-728/2/104/B, Rethibowli <br />
-                near sr nagar metro pillar no 1011 <br />
-                warangal,national highway near rithubazar
+                H.no : 66/1/212/a/1, Bheemaram <br />
+                Hanamkonda(district) <br />
+                Pincode  534201
               </p>
             </div>
             <div className="quicklinks">
@@ -58,13 +58,13 @@ function Footer() {
               &copy; 2024 Your Amma Constructions . All rights reserved.
             </div>
             <div className="sociallinks">
-              <a href="https://www.facebook.com">
+              {/* <a href="https://www.facebook.com">
                 <FontAwesomeIcon
                   className="socialicon"
                   size="lg"
                   icon={faFacebook}
                 />
-              </a>
+              </a> */}
               <a href="https://www.instagram.com">
                 <FontAwesomeIcon
                   className="socialicon"

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 import Slider from "../Slider/Slider";
-function Contact({ showSlider }) {
+function Contact({ showSlider , showMap }) {
   const [formState, setFormState] = useState({});
   const changeHandler = (event) => {
     const { name, value } = event.target;
@@ -36,7 +36,7 @@ function Contact({ showSlider }) {
       <p id="heading">Contact Us</p>
       <div className="contact-container">
         <div className="contact-form">
-          <h4>CONTACT FORM</h4>
+          <h4>BOOK AN APPOINTMENT</h4>
           <form onSubmit={submitHandler}>
             <div className="form-row">
               <div className="form-group">
@@ -98,7 +98,7 @@ function Contact({ showSlider }) {
             <button type="submit">Submit</button>
           </form>
         </div>
-        <div className="map-container">
+        {showMap && <div className="map-container">
           <iframe
             title="Google Maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.6787885234507!2d79.01653467464288!3d18.111856081532213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcc9555573e5a77%3A0x14628637ce38e3c6!2sBaddipadaga%2C%20Telangana%20502375%2C%20India!5e1!3m2!1sen!2sus!4v1709490807467!5m2!1sen!2sus"
@@ -107,7 +107,7 @@ function Contact({ showSlider }) {
             allowFullScreen=""
             loading="lazy"
           ></iframe>
-        </div>
+        </div>}
       </div>
     </div>
   );

@@ -18,12 +18,12 @@ img{
         height: 25vh;
     }
     .slider{
-        margin-top:100px ;
+        margin-top:7vh ;
     }
 }
 
 @media (max-width: 480px) {
     .slider{
-        margin-top: 90px;
+        margin-top: 7vh;
     }
 }

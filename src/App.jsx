@@ -6,10 +6,12 @@ import Services from './Services/Services';
 import Slider from './Slider/Slider'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Media from './Media/Media';
+import Contact from './Contact/Contact';
 function App() {
   return (
     <>
       <Slider/>
+      <Contact showMap={false}/>
       <Services/>
       <About/>
     </>

@@ -16,9 +16,12 @@
     gap: 50px;
 }
 .aboutamma .firstflex{
-    width: 50vw;
+    width: 40vw;
     margin-top: 20px;
     margin-right: 20px;
+}
+.aboutamma .secondflex{
+    width: 40vw;
 }
 .aboutamma .firstflex h4{
     font-size: medium;
