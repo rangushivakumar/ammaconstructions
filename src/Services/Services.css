@@ -33,7 +33,7 @@
     border-radius: 8px;
     margin: 10px;
     padding: 10px;
-    height: 27vh;
+    height: auto;
   }
   .cardbody h4{
     font-size: medium;
@@ -99,6 +99,14 @@
       margin: 0 20px;
       padding: 10px;
       border: 1px solid rgb(27, 159, 27, 0.3);
+    }
+    .servicecontent h5{
+      font-weight: 400;
+      line-height: 1.8rem;
+    }
+    .services{
+      width: 90vw;
+      margin: 20px auto 0 auto;
     }
   }
   

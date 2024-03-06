@@ -129,10 +129,6 @@
     }
 }
 @media (max-width: 480px) {
-    .sociallinks{
-        margin: 0px 40px;
-        height: 7vh;
-    }
     #footer{
         padding: 20px 50px;
         margin-bottom: 9vh;
@@ -142,9 +138,18 @@
         padding: 0px;
     }
     .sociallinks a {
-        padding: 11px;
-        background-color: none;
-        margin: 20px;
+        padding: 10px;
+        background-color: #ffffff;
+        margin: 10px;
         border-radius: 50%;
+    }
+    
+    .socialicon {
+        color: rgb(27, 159, 27);
+        font-size: 20px;
+    }
+    
+    .sociallinks {
+        margin: 0px 30px;
     }
 }
