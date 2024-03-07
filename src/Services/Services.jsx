@@ -40,8 +40,8 @@ function Services({showSlider}) {
               <p>Church</p>
             </div>
             <div>
-              <img src={apartment} alt="apartment" />
-              <p>Apartment</p>
+              <img id='college' src={college} alt="college" />
+              <p>College</p>
             </div>
           </div>
         </div>
