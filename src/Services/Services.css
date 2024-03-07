@@ -7,7 +7,7 @@
   font-size: 25px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: rgb(27, 159, 27);
 }
 
@@ -62,6 +62,50 @@
     border: 1px solid rgb(27, 159, 27, 0.3);
   }
 
+
+
+  .sercivcecards {
+    padding: 40px;
+    margin: 0 20px;
+  }
+  
+  .sercivcecards span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(27, 159, 27);
+    margin-bottom: 20px
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .cards div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 12vw;
+    /* height: auto; */
+  }
+  
+  .cards div img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cards div p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+ 
+
   @media (max-width: 768px) {
     .servicecontent{
       text-align: center;
@@ -88,6 +132,14 @@
       font-size: 14px;
       margin-bottom: 0;
     }
+
+    .cards div {
+      width: 25vw;
+    }
+    
+    .cards{
+      gap: 20px;
+    }
   }
 
   @media (max-width: 480px) {
@@ -108,6 +160,15 @@
     .services{
       width: 90vw;
       margin: 20px auto 0 auto;
+    }
+    .cards div{
+      width: 30vw;
+    }
+    .sercivcecards{
+      padding: 20px;
+    }
+    .cards{
+      gap: 5px;
     }
   }
   

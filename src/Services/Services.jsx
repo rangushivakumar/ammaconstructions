@@ -1,7 +1,13 @@
 import "./Services.css";
 import card1 from "../assets/card1.png";
 import Slider from "../Slider/Slider";
-import card2 from "../assets/card2.png"
+import card2 from "../assets/card2.png";
+import school from '../assets/school.png';
+import church from '../assets/church.png';
+import college from '../assets/college.png';
+import mall from '../assets/mall.png';
+import apartment from '../assets/apartment.png';
+import house from '../assets/house.png';
 function Services({showSlider}) {
   return (
     <div>
@@ -9,6 +15,35 @@ function Services({showSlider}) {
       <div className="services">
         <div className="heading">
           <span>Our Services</span>
+        </div>
+        <div className="sercivcecards">
+          <span>Amma Construction UnderTakes</span>
+          <div className="cards">
+            <div>
+              <img src={school} alt="school" />
+              <p>School</p>
+            </div>
+            <div>
+              <img src={apartment} alt="apartment" />
+              <p>Apartment</p>
+            </div>
+            <div>
+              <img src={house} alt="house" />
+              <p>House</p>
+            </div>
+            <div>
+              <img src={mall} alt="mall" />
+              <p>Mall</p>
+            </div>
+            <div>
+              <img src={church} alt="church" />
+              <p>Church</p>
+            </div>
+            <div>
+              <img src={apartment} alt="apartment" />
+              <p>Apartment</p>
+            </div>
+          </div>
         </div>
         <div className="servicecontent">
           <h5><strong>Note : </strong>Owners have the freedom to select preferred companies for plumbing,color,electric wires and ensuring

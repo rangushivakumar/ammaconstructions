@@ -101,7 +101,7 @@ function Contact({ showSlider , showMap }) {
         {showMap && <div className="map-container">
           <iframe
             title="Google Maps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.6787885234507!2d79.01653467464288!3d18.111856081532213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcc9555573e5a77%3A0x14628637ce38e3c6!2sBaddipadaga%2C%20Telangana%20502375%2C%20India!5e1!3m2!1sen!2sus!4v1709490807467!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3793.72726354988!2d79.53468637518013!3d18.037856682964474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDAyJzE2LjMiTiA3OcKwMzInMTQuMSJF!5e0!3m2!1sen!2sin!4v1709742369721!5m2!1sen!2sin"
             width="400"
             height="300"
             allowFullScreen=""

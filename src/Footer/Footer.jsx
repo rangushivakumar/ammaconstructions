@@ -19,7 +19,7 @@ function Footer() {
             <div className="contactsection">
               <h4>ADDRESS</h4>
               <p>
-                H.no : 66/1/212/a/1, Bheemaram <br />
+                H.no : 55/1/212/a/1, Bheemaram <br />
                 Hanamkonda(district) <br />
                 Pincode  534201
               </p>
@@ -44,7 +44,7 @@ function Footer() {
                 <strong>Phone : </strong>9406054838 , 8367339969
               </p>
               <p>
-                <strong>Hours : </strong>10 AM- 6 PM , Mon-Sat
+                <strong>Hours : </strong>9.30 AM- 5.30 PM , Mon-Sun
               </p>
               <p>
                 <strong>Gmail : </strong>houseamma20@gmail.com
@@ -80,7 +80,7 @@ function Footer() {
                 />
               </a>
               <a
-                href={`https://wa.me/9406054838?text=${encodeMessage(
+                href={`https://wa.me/+919406054838?text=${encodeMessage(
                   defaultMessage
                 )}`}
                 id="whatsapp"
